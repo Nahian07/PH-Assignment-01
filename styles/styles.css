@@ -123,3 +123,63 @@ nav{
     text-align: center;
 }
 
+/* productive users section styles */
+
+.users-feedback h2{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 137px 0;
+    margin-bottom: -50px;
+}
+
+.productive-users-container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.users-id{
+    display: flex;
+    justify-content: left;
+}
+
+.users{
+    border: 0.5px solid #F2EDED;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 24px;
+    padding-right: 100px;
+    background-color: rgba(100, 95, 252, 0.1);
+}
+
+.users-title{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: -15px;
+}
+
+.users-id img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.users-msg{
+    font-size: 17px;
+    font-weight: 400px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.users-name{
+    font-weight: 900px;
+    font-size: 15px;
+    margin-bottom: -15px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.date{
+    color: rgba(0, 0, 0, 0.3);
+}
