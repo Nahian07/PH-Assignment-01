@@ -55,5 +55,27 @@ nav{
     font-weight: bold;
 }
 
+/* action section styles */
 
+.action-container{
+    display: flex;
+    gap: 323px;
+    align-items: center;
+    justify-content: center;
+    padding: 116px 140px;
+}
 
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.action-subtitle{
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.action-img img{
+    border-radius: 48px;
+}
